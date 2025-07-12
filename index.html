@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>José Siqueira Neto | Portfolio</title>
+  <meta name="description" content="Portfólio do aspirante a desenvolvedor back-end José Siqueira Neto para compartilhar projetos e habilidades desenvolvidas.">
+
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="header-nav">
+      <ul class="menu menu--principal">
+        <li class="menu-item">
+          <a class="menu-link active" href="#home">
+            <span class="menu-text">Home</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="#projetos">
+            <span class="menu-text">Projetos</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="#sobre">
+            <span class="menu-text">Sobre</span>
+          </a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link" href="#contato">
+            <span class="menu-text">Contato</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header-brand">
+      <a href="#home">
+        <img class="brand-logo" src="assets/images/logo-ea.png" alt="Logo EA">
+      </a>
+    </div>
+    <div class="header-toggle">
+      <i id="toggleTheme" class="bi bi-sun"></i>
+    </div>
+  </header>
+  <nav class="nav--mobile">
+    <ul class="menu menu--mobile">
+      <li class="menu-item">
+        <a class="menu-link active" href="#home">
+          <i class="menu-icon bi bi-house-door"></i>
+          <span class="menu-text">Home</span>
+        </a>
+      </li>
+      <li class="menu-item">
+        <a class="menu-link" href="#projetos">
+          <i class="menu-icon bi bi-window-stack"></i>
+          <span class="menu-text">Projetos</span>
+        </a>
+      </li>
+      <li class="menu-item">
+        <a class="menu-link" href="#sobre">
+          <i class="menu-icon bi bi-person"></i>
+          <span class="menu-text">Sobre</span>
+        </a>
+      </li>
+      <li class="menu-item">
+        <a class="menu-link" href="#contato">
+          <i class="menu-icon bi bi-envelope"></i>
+          <span class="menu-text">Contato</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <main id="home">
+    <div class="main-content">
+      <h1><b>Estudos e Aprendizados &</b> Desenvolvimento Back-end</h1>
+      <p>José Siqueira Neto, Cubatão-SP, Aspirante a Desenvolvedor Back-end.</p> 
+      <ul class="menu menu--social">
+        <li>
+          <a class="menu-link" href="https://github.com/JoseSicNeto" target="_blank">
+            <i class="menu-icon bi bi-github"></i>
+          </a>
+        </li>
+        <li>
+          <a class="menu-link" href="https://www.linkedin.com/in/jose-siqueira-neto/" target="_blank">
+            <i class="menu-icon bi bi-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+      <a href="#projetos">
+        <button class="btn btn--primary">
+          <span>Ver Projetos</span>
+          <i class="bi bi-arrow-down-right"></i>
+        </button>  
+      </a>
+    </div>
+  </main>
+
+  <section class="technologies">
+    <h2>Conhecimento nas principais tecnologias do mercado - exemplo</h2>
+    <ul class="technologies-list">
+      <li class="technologies-item">
+        <img class="technologies-logo" src="https://cdn.simpleicons.org/dotnet/ffffff/16" alt="Icon Csharp">
+      </li>
+      <li class="technologies-item">
+        <img class="technologies-logo" src="https://cdn.simpleicons.org/mysql/ffffff/16" alt="Icon Mysql">
+      </li>
+      <li class="technologies-item">
+        <img class="technologies-logo" src="https://cdn.simpleicons.org/javascript/ffffff/16" alt="Icon JavaScript">
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos" class="projects">
+    <h2>Projetos - (Exemplos)</h2>
+    <div class="projects-container">
+      <div class="projects-card">
+        <img class="card-cover" src="assets/images/projects/josisbox.jpg" alt="Capa Clone YouTube - exemplo alearório">
+        <div class="card-body">
+          <h3 class="card-title">Clone de uma tela do YouTube</h3>
+          <p class="card-description">Página usando Flexbox</p>
+          <ul class="card-list">
+            <li class="card-item">Acessibilidade;</li>
+            <li class="card-item">Responsividade;</li>
+            <li class="card-item">Layout Parecido.</li>
+          </ul>
+          <ul class="technologies-list">
+            <li class="technologies-item">
+              <img class="technologies-logo" src="https://cdn.simpleicons.org/html5/ffffff/16" alt="Logo HTML">
+            </li>
+            <li class="technologies-item">
+              <img class="technologies-logo" src="https://cdn.simpleicons.org/css/ffffff/16" alt="Logo CSS">
+            </li>
+          </ul>
+          <div class="card-buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <a 
+              class="btn"
+              href="https://github.com/JoseSicNeto/youtube-clone-flexbox"
+              target="_blank"
+              >
+              <span>Repositório</span>
+          </a>
+          </div>
+        </div>
+      </div>
+      <div class="projects-card card--reverse">
+        <img class="card-cover" src="assets/images/projects/archstil.jpg" alt="Capa App de Imposto - Exemplo alearório">
+        <div class="card-body">
+          <h3 class="card-title">App Lion de Imposto de Renda</h3>
+          <p class="card-description">App no excel para imposto imobiliário.</p>
+          <ul class="card-list">
+            <li class="card-item">Menu interativo;</li>
+            <li class="card-item">Validações automaticas;</li>
+            <li class="card-item">Layout amigável e dinâmico.</li>
+          </ul>
+          <ul class="technologies-list">
+            <li class="technologies-item"> 
+              <img class="technologies-logo" src="https://cdn.simpleicons.org/mysql/ffffff/16" alt="Logo MySQL">
+            </li>
+          </ul>
+          <div class="card-buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <a
+              class="btn"
+              href="https://github.com/JoseSicNeto/DIO_LionApp_Imposto-de-Renda-com-Excel"
+              target="_blank"
+              >
+              <span>Repositório</span>
+            </a>  
+          </div>
+        </div>
+      </div>
+      <div class="projects-card">
+        <img class="card-cover" src="assets/images/projects/games-store.jpg" alt="Capa Jogo da Velha">
+        <div class="card-body">
+          <h3 class="card-title">Jogo da Velha</h3>
+          <p class="card-description">Jogo da Velha no terminal.</p>
+          <ul class="card-list">
+            <li class="card-item">Dois modos de jogo;</li>
+            <li class="card-item">Projeto Acadêmico;</li>
+            <li class="card-item">Layout Simples e Intuitivo.</li>
+          </ul>
+          <ul class="technologies-list">
+            <li class="technologies-item">
+              <img class="technologies-logo" src="https://cdn.simpleicons.org/dotnet/ffffff/16" alt="Logo .NET">
+            </li>
+          </ul>
+          <div class="card-buttons">
+            <button class="btn btn--primary">
+              <span>Prévia</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button>  
+            <a
+              class="btn"
+              href="https://github.com/JoseSicNeto/Tic_tac_toe"
+              target="_blank"
+              >
+              <span>Repositório</span>
+            </a>  
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/JoseSicNeto">
+        <button class="btn btn--primary">
+          <span>Ver Todos os Projetos</span>
+          <i class="bi bi-arrow-up-right"></i>
+        </button>  
+      </a>
+    </div>
+  </section>
+
+  <section id="sobre" class="about">
+    <div class="about-content1">
+      <img class="about-photo" src="assets/images/avatar.jpeg" alt="">
+      <div class="about-description">
+        <h2>Sobre mim</h2>
+        <p>Sou José Siqueira Neto e minha paixão por tecnologia começou com o simples desejo, ainda criança, de entender como tudo funcionava. Hoje, movido por essa curiosidade, estou no último ano de Ciência da Computação e ansioso para colocar minhas habilidades em prática.
+        </p>  
+        <div class="about-icons">
+          <i class="bi bi-translate"></i>
+          <span>Inglês: Intermediário-básico</span>
+        </div>
+        <div class="description-buttons">
+          <a href="https://www.linkedin.com/in/jose-siqueira-neto/" target="_blank">
+            <button class="btn btn--primary">
+              <span>Conecte-se Comigo</span>
+              <i class="bi bi-arrow-up-right"></i>
+            </button> 
+          </a>
+          <a href="https://www.linkedin.com/in/jose-siqueira-neto/" target="_blank">
+            <button class="btn">
+              <span>Currículo</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="about-content2">
+      <div class="col1">
+        <div class="row">
+          <h3>Formação</h3>
+          <h4>Ciência da Computação</h4>
+          <span>Feb 2022 - Atualmente</span>
+          <div class="about-icons">
+            <i class="bi bi-bank"></i>
+            <span>Universidade Paulista (UNIP)</span>
+          </div>
+          <div class="about-icons">
+            <i class="bi bi-mortarboard"></i>
+            <span>Graduação - Bacharelado</span>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <h3>Cursos</h3>
+        <div id="accordion">
+          <div class="accordion-item active">
+            <button class="accordion-header start">
+              <span>Santander 2025 - Front-End</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion-body">
+              <p>
+                Digital Innovation One. Jul 2025. 102h.
+              </p>
+              <p>
+                O programa abrange fundamentos de HTML5, CSS3 e JavaScript ES6+, criação de interfaces responsivas e acessíveis.  
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header">
+              <span>Santander - Excel com Inteligência Artificial</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion-body">
+              <p>
+                Digital Innovation One. Jun 2025. 26h.
+              </p>
+              <p>
+                O programa explora funcionalidades avançadas do Excel, integração com recursos de IA como ChatGPT e modelos preditivos, automação de tarefas com macros e Power Query, e construção de dashboards inteligentes para análise de dados.
+              </p>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <button class="accordion-header end">
+              <span>Randstad - Backend com .NET</span>
+              <i class="bi bi-caret-down-fill"></i>
+            </button>
+            <div class="accordion-body end">
+              <p>
+                Digital Innovation One. Dec 2024. 105h.
+              </p>
+              <p>
+                O programa aborda fundamentos de C# e .NET Core, criação de APIs RESTful, acesso a dados com Entity Framework, testes unitários, segurança e deploy em nuvem, capacitando o desenvolvimento de soluções backend escaláveis e robustas.
+              </p>
+            </div>
+          </div>
+        </div>
+  </section>
+  
+  <section id="contato" class="contact">
+    <h2>Contate-me</h2>
+    <p>Estou disponível para serviços e novas conexões. Contate-me via 
+      e-mail e conecte-se comigo através das minhas redes sociais.
+    </p>
+    <ul class="menu menu--social">
+      <li>
+        <a class="menu-link" href="https://github.com/JoseSicNeto" target="_blank">
+          <i class="menu-icon bi bi-github"></i>
+          <span>GitHub</span>
+        </a>
+      </li>
+      <li>
+        <a class="menu-link" href="https://www.linkedin.com/in/jose-siqueira-neto/" target="_blank">
+          <i class="menu-icon bi bi-linkedin"></i>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+    </ul>
+    <a href="mailto:josesiqueira7818@gmail.com">
+      <button class="btn btn--primary">
+        <span class="email">josesiqueira7818@gmail.com</span>
+      </button>  
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      © 2025. Portfólio desenvolvido e orientado para fins educativos no Lab "Construindo seu Portfolio Front-end do Zero" da 
+      <a href="https://www.dio.me/" target="_blank">Digital Innovation One</a> por 
+      <a href="https://github.com/elidianaandrade" target="_blank">Elidiana Andrade</a>.
+    </p>
+  </footer>
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
