@@ -31,7 +31,7 @@ Este portfólio exibe minhas informações pessoais, projetos desenvolvidos e me
 ## Demonstração
 
 Acesse a versão online do portfólio em:  
-https://josesicneto.github.io/Portif-lio/  
+https://josesicneto.github.io/Portifolio/  
 
 
 ---
